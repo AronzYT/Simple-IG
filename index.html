@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SimpleIG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Watermark -->
+  <div class="watermark">
+    version alpha-0.1<br>
+  </div>
+
+  <div class="container">
+    <h1 id="points">Points: 0</h1>
+    <h2 id="prestige-points">Prestige Points: 0</h2>
+
+    <button id="click-button">Click Me!</button>
+
+    <div class="bottom-buttons">
+      <button id="upgrade-cooldown">Upgrade Cooldown (2s)</button>
+      <button id="prestige-button">Prestige</button>
+      <button id="upgrade-button">Upgrade Button</button>
+    </div>
+  </div>
+
+  <!-- Prestige Tree Modal -->
+  <div id="prestige-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close">&times;</span>
+      <h2>Prestige Tree</h2>
+      <div class="prestige-tree">
+        <button id="prestige-2x">2x Points Booster (1 PP)</button>
+        <button id="prestige-1s">Start at 1s Cooldown (3 PP)</button>
+        <button id="prestige-5x">5x Points Booster (5 PP)</button>
+        <button id="prestige-goldbomb">Gold Bomb (10 PP)</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/decimal.js/10.3.1/decimal.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.watermark {
+  position: fixed;
+  top: 7px;
+  left: 7px;
+  font-size: 0.5em;
+  color: #888;
+  text-align: left;
+  line-height: 1.1em;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#click-button {
+  width: 300px;
+  height: 150px;
+  font-size: 2em;
+  margin: 20px 0;
+  border-radius: 15px;
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.bottom-buttons button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #2196f3;
+  color: #fff;
+  border: none;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+  background-color: #333;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.prestige-tree button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 10px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
